@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "Models/Weapons/[X]HL2WRn1/9mm_map"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\weapons\[X]HL2WRn1\9mm_map_ref"
+}

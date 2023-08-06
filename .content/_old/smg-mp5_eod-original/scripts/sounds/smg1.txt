@@ -1,0 +1,54 @@
+
+"Weapon_MP5.Draw"
+{
+	"channel" "CHAN_BODY"
+	"volume" "VOL_NORM"
+	"soundlevel" "SNDLVL_NORM"
+	"pitch" "PITCH_NORM"
+	"wave" "weapons/mp5/mp5_deploy.wav"
+}
+
+"Weapon_MP5.Holster"
+{
+	"channel" "CHAN_BODY"
+	"volume" "VOL_NORM"
+	"soundlevel" "SNDLVL_NORM"
+	"pitch" "PITCH_NORM"
+	"wave" "weapons/mp5/mp5_deploy.wav"
+}
+
+"Weapon_MP5.BoltPull"
+{
+	"channel" "CHAN_ITEM"
+	"volume" "VOL_NORM"
+	"soundlevel" "SNDLVL_NORM"
+	"pitch" "PITCH_NORM"
+	"wave" "weapons/mp5/mp5_boltpull.wav"
+}
+
+"Weapon_MP5.ClipOut"
+{
+	"channel" "CHAN_ITEM"
+	"volume" "VOL_NORM"
+	"soundlevel" "SNDLVL_NORM"
+	"pitch" "PITCH_NORM"
+	"wave" "weapons/mp5/mp5_clipout.wav"
+}
+
+"Weapon_MP5.ClipIn"
+{
+	"channel" "CHAN_ITEM"
+	"volume" "VOL_NORM"
+	"soundlevel" "SNDLVL_NORM"
+	"pitch" "PITCH_NORM"
+	"wave" "weapons/mp5/mp5_clipin.wav"
+}
+
+"Weapon_MP5.BoltSlap"
+{
+	"channel" "CHAN_ITEM"
+	"volume" "VOL_NORM"
+	"soundlevel" "SNDLVL_NORM"
+	"pitch" "PITCH_NORM"
+	"wave" "weapons/mp5/mp5_boltslap.wav"
+}

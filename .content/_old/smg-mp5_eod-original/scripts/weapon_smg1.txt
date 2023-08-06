@@ -1,0 +1,132 @@
+
+//////////////////////////////
+// MP5
+//////////////////////////////
+
+weapondata
+{
+
+	printname "MP5 EOD"
+	viewmodel models/weapons/v_smg1.mdl
+	playermodel models/weapons/w_smg1.mdl
+	anim_prefix smg2
+	bucket 2
+	bucket_position 0
+	bucket_360 1
+	bucket_position_360 0
+
+	clip_size 30
+	default_clip 30
+	primary_ammo smg1
+
+	secondary_ammo smg1_grenade
+
+	weight 0
+	rumble 4
+	item_flags 38
+
+	sounddata
+	{
+
+		// When the player reloads
+		reload weapon_smg1.reload
+
+		// When an NPC reloads
+		reload_npc weapon_smg1.npc_reload
+
+		// Dry-fire
+		empty weapon_smg1.empty
+
+		// When the player fires
+		single_shot weapon_smg1.single
+
+		// When an NPC fires
+		single_shot_npc weapon_smg1.npc_single
+
+		// When firing the grenade launcher
+		double_shot weapon_smg1.double 
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+
+			font weaponicons
+			character a
+
+		}
+
+		weapon_s
+		{ 
+
+			font weaponiconsselected
+			character a
+
+		}
+
+		weapon_small
+		{
+
+			font weaponiconssmall
+			character a
+
+		}
+
+		ammo
+		{
+
+			font weaponiconssmall
+			character r
+
+		}
+
+		ammo2
+		{
+
+			font weaponiconssmall
+			character t
+
+		}
+
+		crosshair
+		{
+
+			font crosshairs
+			character Q
+
+		}
+
+		autoaim
+		{
+
+			file sprites/crosshairs
+			x 0
+			y 48
+			width 24
+			height 24
+
+		}
+
+	}
+
+	csviewmodel 1 // (Boolean) Adjust the origin of the weapon view model to show a bit more of it
+	// dynscope 0 // (Boolean) Toggle Render Target scopes on this weapon
+	movespeedaim 0.5 // (Float) Adjust the movement speed while in iron sights
+	ironsight
+	{
+
+		forward -8 // (Float) Move the view model on the forward axis while in iron sights
+		right -6.45 // (Float) Move the view model on the right axis while in iron sights
+		up 2.52 // (Float) Move the view model on the up axis while in iron sights
+		pitch 0 // (Float) Rotate the view model on the pitch axis while in iron sights
+		yaw 0 // (Float) Rotate the view model on the yaw axis while in iron sights
+		roll 0 // (Float) Rotate the view model on the roll axis while in iron sights
+		fov -20 // (Integer) Adjust the field of view by this much while in iron sights
+		time 0.2 // (Float) Time it takes to toggle in and out of iron sights
+
+	}
+
+}
